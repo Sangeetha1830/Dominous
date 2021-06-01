@@ -1,0 +1,14 @@
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.dominous.operation.VerifyDeleteOperation"/>
+      <class name="com.dominous.operation.Remo"/>
+      <class name="com.dominous.operation.Demo"/>
+      <class name="com.dominous.operation.ValidLoginTest"/>
+      <class name="com.dominous.operation.ValidPrintPreviewOperation"/>
+      <class name="com.dominous.operation.VerifyOperationCreation"/>
+      <class name="com.dominous.operation.ValidCloneOperation"/>
+      <class name="com.dominous.operation.VerifyEditOperation"/>
+    </classes>
+  </test> 
+</suite> 

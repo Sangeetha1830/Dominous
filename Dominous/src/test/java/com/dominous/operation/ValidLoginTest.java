@@ -8,13 +8,10 @@ import com.dominous.genericlib.FileLib;
 import com.dominous.genericlib.WebDriverCommonLib;
 import com.dominous.pages.LoginPage;
 
-
-
-
 @Listeners(com.dominous.genericlib.MyListeners.class)
 public class ValidLoginTest extends BaseTest {
 
-	@Test
+	@Test(priority=1)
 	public void loginToApp() throws Throwable {
 		LoginPage lp = new LoginPage();
 		FileLib flib = new FileLib();

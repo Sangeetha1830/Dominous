@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
     <line>
       <![CDATA[Test testRunner Started]]>
+    </line>
+    <line>
+      <![CDATA[Login Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[verifyDeleteOperation test Started]]>
+    </line>
+    <line>
+      <![CDATA[Home Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Displaying Custom View Details Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Create Campaign Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Displaying Custom View Detailsis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[verifyDeleteOperation test PASSED]]>
+    </line>
+    <line>
+      <![CDATA[sumo test Started]]>
+    </line>
+    <line>
+      <![CDATA[Sumo tests are runnig successfully]]>
+    </line>
+    <line>
+      <![CDATA[sumo test PASSED]]>
+    </line>
+    <line>
+      <![CDATA[run test Started]]>
+    </line>
+    <line>
+      <![CDATA[run tests are running successfully]]>
+    </line>
+    <line>
+      <![CDATA[run test PASSED]]>
     </line>
     <line>
       <![CDATA[Login Pageis Displayed, PASS]]>
@@ -15,6 +54,27 @@
     </line>
     <line>
       <![CDATA[loginToApp test PASSED]]>
+    </line>
+    <line>
+      <![CDATA[Login Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[VerifyPrintPreviewOperation test Started]]>
+    </line>
+    <line>
+      <![CDATA[Home Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Displaying Custom View Details Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Create Campaign Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Print Preview Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[VerifyPrintPreviewOperation test PASSED]]>
     </line>
     <line>
       <![CDATA[Login Pageis Displayed, PASS]]>
@@ -37,20 +97,77 @@
     <line>
       <![CDATA[verifyOperationTest test PASSED]]>
     </line>
+    <line>
+      <![CDATA[Login Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[verifyCloneOperation test Started]]>
+    </line>
+    <line>
+      <![CDATA[Home Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Displaying Custom View Details Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Create Campaign Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Clone Campaign Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[verifyCloneOperation test PASSED]]>
+    </line>
+    <line>
+      <![CDATA[Login Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[verifyEditOPeration test Started]]>
+    </line>
+    <line>
+      <![CDATA[Home Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Displaying Custom View Detailsis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Create Campaign Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[Edit Campaign Pageis Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[verifyEditOPeration test PASSED]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="208191" started-at="2021-05-28T12:18:34 PDT" finished-at="2021-05-28T12:22:02 PDT">
+  <suite name="Suite" duration-ms="407082" started-at="2021-06-01T03:21:24 PDT" finished-at="2021-06-01T03:28:11 PDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="208191" started-at="2021-05-28T12:18:34 PDT" finished-at="2021-05-28T12:22:02 PDT">
+    <test name="Test" duration-ms="407082" started-at="2021-06-01T03:21:24 PDT" finished-at="2021-06-01T03:28:11 PDT">
+      <class name="com.dominous.operation.Demo">
+        <test-method status="PASS" signature="run()[pri:6, instance:com.dominous.operation.Demo@8b87145]" name="run" duration-ms="6" started-at="2021-06-01T03:23:23 PDT" finished-at="2021-06-01T03:23:23 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[run test Started]]>
+            </line>
+            <line>
+              <![CDATA[run tests are running successfully]]>
+            </line>
+            <line>
+              <![CDATA[run test PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- com.dominous.operation.Demo -->
       <class name="com.dominous.operation.VerifyOperationCreation">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.dominous.operation.VerifyOperationCreation@134593bf]" name="openBrowser" is-config="true" duration-ms="14861" started-at="2021-05-28T12:19:22 PDT" finished-at="2021-05-28T12:19:37 PDT">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.dominous.operation.VerifyOperationCreation@382db087]" name="openBrowser" is-config="true" duration-ms="9807" started-at="2021-06-01T03:25:53 PDT" finished-at="2021-06-01T03:26:03 PDT">
           <reporter-output>
             <line>
               <![CDATA[Login Pageis Displayed, PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyOperationTest()[pri:0, instance:com.dominous.operation.VerifyOperationCreation@134593bf]" name="verifyOperationTest" duration-ms="144099" started-at="2021-05-28T12:19:37 PDT" finished-at="2021-05-28T12:22:01 PDT">
+        <test-method status="PASS" signature="verifyOperationTest()[pri:2, instance:com.dominous.operation.VerifyOperationCreation@382db087]" name="verifyOperationTest" duration-ms="23475" started-at="2021-06-01T03:26:03 PDT" finished-at="2021-06-01T03:26:27 PDT">
           <reporter-output>
             <line>
               <![CDATA[verifyOperationTest test Started]]>
@@ -72,20 +189,90 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyOperationTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.dominous.operation.VerifyOperationCreation@134593bf]" name="closeBrowser" is-config="true" duration-ms="1363" started-at="2021-05-28T12:22:01 PDT" finished-at="2021-05-28T12:22:02 PDT">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.dominous.operation.VerifyOperationCreation@382db087]" name="closeBrowser" is-config="true" duration-ms="1287" started-at="2021-06-01T03:26:27 PDT" finished-at="2021-06-01T03:26:28 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.dominous.operation.VerifyOperationCreation -->
-      <class name="com.dominous.operation.ValidLoginTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.dominous.operation.ValidLoginTest@44a3ec6b]" name="openBrowser" is-config="true" duration-ms="18430" started-at="2021-05-28T12:18:34 PDT" finished-at="2021-05-28T12:18:53 PDT">
+      <class name="com.dominous.operation.VerifyDeleteOperation">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.dominous.operation.VerifyDeleteOperation@134593bf]" name="openBrowser" is-config="true" duration-ms="45528" started-at="2021-06-01T03:21:24 PDT" finished-at="2021-06-01T03:22:10 PDT">
           <reporter-output>
             <line>
               <![CDATA[Login Pageis Displayed, PASS]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.dominous.operation.ValidLoginTest@44a3ec6b]" name="loginToApp" duration-ms="27839" started-at="2021-05-28T12:18:53 PDT" finished-at="2021-05-28T12:19:21 PDT">
+        <test-method status="PASS" signature="verifyDeleteOperation()[pri:4, instance:com.dominous.operation.VerifyDeleteOperation@134593bf]" name="verifyDeleteOperation" duration-ms="70256" started-at="2021-06-01T03:22:10 PDT" finished-at="2021-06-01T03:23:20 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyDeleteOperation test Started]]>
+            </line>
+            <line>
+              <![CDATA[Home Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Displaying Custom View Details Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Create Campaign Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Displaying Custom View Detailsis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[verifyDeleteOperation test PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteOperation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.dominous.operation.VerifyDeleteOperation@134593bf]" name="closeBrowser" is-config="true" duration-ms="2398" started-at="2021-06-01T03:23:20 PDT" finished-at="2021-06-01T03:23:23 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.dominous.operation.VerifyDeleteOperation -->
+      <class name="com.dominous.operation.ValidCloneOperation">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.dominous.operation.ValidCloneOperation@73d4cc9e]" name="openBrowser" is-config="true" duration-ms="20021" started-at="2021-06-01T03:26:28 PDT" finished-at="2021-06-01T03:26:48 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Pageis Displayed, PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyCloneOperation()[pri:5, instance:com.dominous.operation.ValidCloneOperation@73d4cc9e]" name="verifyCloneOperation" duration-ms="30066" started-at="2021-06-01T03:26:48 PDT" finished-at="2021-06-01T03:27:18 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyCloneOperation test Started]]>
+            </line>
+            <line>
+              <![CDATA[Home Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Displaying Custom View Details Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Create Campaign Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Clone Campaign Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[verifyCloneOperation test PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCloneOperation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.dominous.operation.ValidCloneOperation@73d4cc9e]" name="closeBrowser" is-config="true" duration-ms="890" started-at="2021-06-01T03:27:18 PDT" finished-at="2021-06-01T03:27:19 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.dominous.operation.ValidCloneOperation -->
+      <class name="com.dominous.operation.ValidLoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.dominous.operation.ValidLoginTest@6483f5ae]" name="openBrowser" is-config="true" duration-ms="13022" started-at="2021-06-01T03:23:23 PDT" finished-at="2021-06-01T03:23:36 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Pageis Displayed, PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:1, instance:com.dominous.operation.ValidLoginTest@6483f5ae]" name="loginToApp" duration-ms="9768" started-at="2021-06-01T03:23:36 PDT" finished-at="2021-06-01T03:23:46 PDT">
           <reporter-output>
             <line>
               <![CDATA[loginToApp test Started]]>
@@ -98,11 +285,96 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.dominous.operation.ValidLoginTest@44a3ec6b]" name="closeBrowser" is-config="true" duration-ms="1535" started-at="2021-05-28T12:19:21 PDT" finished-at="2021-05-28T12:19:22 PDT">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.dominous.operation.ValidLoginTest@6483f5ae]" name="closeBrowser" is-config="true" duration-ms="1055" started-at="2021-06-01T03:23:46 PDT" finished-at="2021-06-01T03:23:47 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.dominous.operation.ValidLoginTest -->
+      <class name="com.dominous.operation.Remo">
+        <test-method status="PASS" signature="sumo()[pri:7, instance:com.dominous.operation.Remo@5fcd892a]" name="sumo" duration-ms="3" started-at="2021-06-01T03:23:23 PDT" finished-at="2021-06-01T03:23:23 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[sumo test Started]]>
+            </line>
+            <line>
+              <![CDATA[Sumo tests are runnig successfully]]>
+            </line>
+            <line>
+              <![CDATA[sumo test PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sumo -->
+      </class> <!-- com.dominous.operation.Remo -->
+      <class name="com.dominous.operation.ValidPrintPreviewOperation">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.dominous.operation.ValidPrintPreviewOperation@b9afc07]" name="openBrowser" is-config="true" duration-ms="10555" started-at="2021-06-01T03:23:47 PDT" finished-at="2021-06-01T03:23:57 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Pageis Displayed, PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="VerifyPrintPreviewOperation()[pri:8, instance:com.dominous.operation.ValidPrintPreviewOperation@b9afc07]" name="VerifyPrintPreviewOperation" duration-ms="115049" started-at="2021-06-01T03:23:57 PDT" finished-at="2021-06-01T03:25:52 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[VerifyPrintPreviewOperation test Started]]>
+            </line>
+            <line>
+              <![CDATA[Home Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Displaying Custom View Details Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Create Campaign Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Print Preview Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[VerifyPrintPreviewOperation test PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyPrintPreviewOperation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.dominous.operation.ValidPrintPreviewOperation@b9afc07]" name="closeBrowser" is-config="true" duration-ms="1212" started-at="2021-06-01T03:25:52 PDT" finished-at="2021-06-01T03:25:53 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.dominous.operation.ValidPrintPreviewOperation -->
+      <class name="com.dominous.operation.VerifyEditOperation">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.dominous.operation.VerifyEditOperation@5427c60c]" name="openBrowser" is-config="true" duration-ms="19144" started-at="2021-06-01T03:27:19 PDT" finished-at="2021-06-01T03:27:38 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Pageis Displayed, PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyEditOPeration()[pri:3, instance:com.dominous.operation.VerifyEditOperation@5427c60c]" name="verifyEditOPeration" duration-ms="32127" started-at="2021-06-01T03:27:38 PDT" finished-at="2021-06-01T03:28:10 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyEditOPeration test Started]]>
+            </line>
+            <line>
+              <![CDATA[Home Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Displaying Custom View Detailsis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Create Campaign Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[Edit Campaign Pageis Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[verifyEditOPeration test PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEditOPeration -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.dominous.operation.VerifyEditOperation@5427c60c]" name="closeBrowser" is-config="true" duration-ms="1067" started-at="2021-06-01T03:28:10 PDT" finished-at="2021-06-01T03:28:11 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.dominous.operation.VerifyEditOperation -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

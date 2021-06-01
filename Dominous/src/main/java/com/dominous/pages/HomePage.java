@@ -6,10 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.dominous.genericlib.BaseTest;
 
-
-
-
-
 public class HomePage {
 	
 	@FindBy(xpath="//a[text()='Campaigns']") private WebElement campaignsLink;

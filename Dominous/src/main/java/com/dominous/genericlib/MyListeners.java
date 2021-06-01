@@ -5,7 +5,7 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 
-public class MyListeners  implements ITestListener{
+public class MyListeners implements ITestListener{
 
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -18,6 +18,7 @@ public class MyListeners  implements ITestListener{
 		Reporter.log(result.getName()+" test PASSED",true);
 	}
 
+	
 	@Override
 	public void onTestFailure(ITestResult result) {
 		Reporter.log(result.getName()+" test FAILED", true);

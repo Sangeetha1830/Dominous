@@ -9,10 +9,6 @@ import org.testng.Reporter;
 
 import com.dominous.genericlib.BaseTest;
 
-
-
-
-
 public class DisplayingCustomViewDetailsPage {
 	
 	@FindBy(xpath="//input[@value='New Campaign']") private WebElement newCampaignBtn;

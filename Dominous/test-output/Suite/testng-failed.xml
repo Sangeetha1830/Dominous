@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.dominous.operation.VerifyDeleteOperation">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyDeleteOperation"/>
+        </methods>
+      </class> <!-- com.dominous.operation.VerifyDeleteOperation -->
+      <class name="com.dominous.operation.VerifyEditOperation">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyEditOPeration"/>
+        </methods>
+      </class> <!-- com.dominous.operation.VerifyEditOperation -->
+      <class name="com.dominous.operation.ValidCloneOperation">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyCloneOperation"/>
+        </methods>
+      </class> <!-- com.dominous.operation.ValidCloneOperation -->
+      <class name="com.dominous.operation.ValidPrintPreviewOperation">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="VerifyPrintPreviewOperation"/>
+        </methods>
+      </class> <!-- com.dominous.operation.ValidPrintPreviewOperation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -6,9 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.dominous.genericlib.BaseTest;
 
-
-
-
 public class LoginPage {
 	
 	@FindBy(id="userName") private WebElement untb;
