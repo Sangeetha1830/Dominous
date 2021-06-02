@@ -51,7 +51,7 @@ public class VerifyOperationCreation extends BaseTest{
 	
 	//we have click on outside
 	hp.clickcampaignLink();
-	Thread.sleep(2000);
+	Thread.sleep(3000);
 
 	//to go in Custom view Details Page
 	dc.verifyCampaignCreation(campaignName);
