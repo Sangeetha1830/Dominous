@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class Remo {
 	
-    @Test(priority=7)
+    @Test
 	public void sumo() {
 		Reporter.log("Sumo tests are runnig successfully", true);
 	}

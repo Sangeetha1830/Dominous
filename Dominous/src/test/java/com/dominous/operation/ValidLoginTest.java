@@ -11,7 +11,7 @@ import com.dominous.pages.LoginPage;
 @Listeners(com.dominous.genericlib.MyListeners.class)
 public class ValidLoginTest extends BaseTest {
 
-	@Test(priority=1)
+	@Test
 	public void loginToApp() throws Throwable {
 		LoginPage lp = new LoginPage();
 		FileLib flib = new FileLib();

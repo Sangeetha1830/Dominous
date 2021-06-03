@@ -16,7 +16,7 @@ import com.dominous.pages.HomePage;
 @Listeners(com.dominous.genericlib.MyListeners.class)
 public class VerifyOperationCreation extends BaseTest{
 	
-	@Test(priority=2)
+	@Test
 	public void verifyOperationTest() throws Throwable {
 	//open the browser and enter the test url click on sign in button and verify Login Page
 	

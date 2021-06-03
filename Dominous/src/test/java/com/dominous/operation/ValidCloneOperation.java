@@ -15,7 +15,7 @@ import com.dominous.pages.LoginPage;
 @Listeners(com.dominous.genericlib.MyListeners.class)
 public class ValidCloneOperation extends BaseTest{
 	
-	@Test(priority=5)
+	@Test
 	public void verifyCloneOperation() throws Throwable {
 		LoginPage lp =new LoginPage();
 		FileLib flib=new FileLib();

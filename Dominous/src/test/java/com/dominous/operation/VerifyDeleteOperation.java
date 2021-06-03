@@ -16,7 +16,7 @@ import com.dominous.pages.LoginPage;
 @Listeners(com.dominous.genericlib.MyListeners.class)
 public class VerifyDeleteOperation extends BaseTest{
 	
-	@Test(priority=4) 
+	@Test
 	public void verifyDeleteOperation() throws Throwable {
 		LoginPage lp=new LoginPage();
 		FileLib flib=new FileLib();

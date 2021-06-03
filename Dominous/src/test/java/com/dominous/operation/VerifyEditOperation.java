@@ -16,7 +16,7 @@ import com.dominous.pages.LoginPage;
 @Listeners(com.dominous.genericlib.MyListeners.class)
 public class VerifyEditOperation extends BaseTest {
 	
-	@Test(priority=3) 
+	@Test
 	public void verifyEditOPeration() throws Throwable {
 		LoginPage lp=new LoginPage();
 		FileLib flib=new FileLib();
@@ -46,10 +46,12 @@ public class VerifyEditOperation extends BaseTest {
 		ec.clickEditBtn();
 		Thread.sleep(5000);
 		wlib.verify(wlib.getPageTitle(), flib.readPropData(PROP_PATH, "editCampaignTitle"), "Edit Campaign Page");
-		//ec.clickClear();
+		
+		
 		String campaignNameE=flib.getExcelData(EXCEL_PATH, "Customer", 4, 1);
 		cc.enterCampaignName(campaignName);
 		cc.clickSaveBtn();
+		
 		//Thread.sleep(3000);
 		//wlib.verify(wlib.getPageTitle(), flib.readPropData(EXCEL_PATH, "editCampaignDetails"), "Edit Campaign Details Page");
 		//dc.verifyCampaignCreation(campaignNameE);

@@ -15,7 +15,7 @@ import com.dominous.pages.PrintPreviewPage;
 @Listeners(com.dominous.genericlib.MyListeners.class)
 public class ValidPrintPreviewOperation extends BaseTest {
 	
-	@Test(priority=8)
+	@Test
 	public void VerifyPrintPreviewOperation() throws Throwable {
 		
 	LoginPage lp =new LoginPage();

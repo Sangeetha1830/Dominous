@@ -10,7 +10,7 @@ import com.dominous.genericlib.BaseTest;
 
 public class EditCampaignPage {
 	
-	@FindBy(xpath="//td[contains(text(),'Campaign Details')]/ancestor::table/following-sibling::table[1]/descendant::input[@value='Edit']")
+	@FindBy(xpath="//td[contains(text(),'Campaign Details')]/ancestor::table/following::table[1]//input[@value='Edit']")
 	    private WebElement editBtn;
 	
 	public EditCampaignPage() {
@@ -24,10 +24,9 @@ public class EditCampaignPage {
     public void clickEditBtn() {
     	editBtn.click();
     }
-    //public void clickClear() {
-    //	editBtn.clear();
-    //}
-		
+    public void clickClear() {
+    	editBtn.clear();
+    }
 	
     
 
